@@ -31,8 +31,8 @@
 | 앱 | Support URL | Privacy Policy URL | Marketing URL |
 |----|-------------|--------------------|---------------|
 | Mikiboard | `<BASE>/support.html` | `<BASE>/apps/mikiboard/privacy.html` | `<BASE>/apps/mikiboard/` |
-| MisoViewer | `<BASE>/support.html` | `<BASE>/apps/misoviewer/privacy.html` | `<BASE>/apps/misoviewer/` |
-| KkomaLedger | `<BASE>/support.html` | `<BASE>/apps/kkomaledger/privacy.html` | `<BASE>/apps/kkomaledger/` |
+| 미소뷰어 | `<BASE>/support.html` | `<BASE>/apps/misoviewer/privacy.html` | `<BASE>/apps/misoviewer/` |
+| 꼬마통장 | `<BASE>/support.html` | `<BASE>/apps/kkomaledger/privacy.html` | `<BASE>/apps/kkomaledger/` |
 
 ## GitHub Pages 배포
 
@@ -58,4 +58,4 @@ python3 -m http.server 8000
 ## 수정 시 확인할 점
 
 - 지원 이메일은 `dotorim.uk@icloud.com` 로 작성되어 있습니다. 실제 수신 가능한 주소로 맞춰 주세요. (`support.html`, 각 `privacy.html`)
-- 개인정보처리방침 본문은 현재 앱 동작(외부 전송 없음, KkomaLedger는 iCloud 사용)을 기준으로 작성했습니다. 앱에 분석·광고·서버 통신을 추가하면 방침도 함께 갱신해야 합니다.
+- 개인정보처리방침 본문은 현재 앱 동작(외부 전송 없음, 꼬마통장는 iCloud 사용)을 기준으로 작성했습니다. 앱에 분석·광고·서버 통신을 추가하면 방침도 함께 갱신해야 합니다.
