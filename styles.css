@@ -69,7 +69,7 @@ a:hover { color: var(--acorn-deep); text-decoration: underline; }
 /* ---- Hero ---- */
 .hero {
   text-align: center;
-  padding: 72px 0 48px;
+  padding-block: 72px 48px;
 }
 .hero .acorn-big { font-size: 3.4rem; display: block; margin-bottom: 12px; }
 .hero h1 {
@@ -89,7 +89,7 @@ a:hover { color: var(--acorn-deep); text-decoration: underline; }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
-  padding: 24px 0 64px;
+  padding-block: 24px 64px;
 }
 .app-card {
   display: block;
@@ -151,7 +151,7 @@ a:hover { color: var(--acorn-deep); text-decoration: underline; }
 .feature-list li strong { color: var(--acorn-deep); }
 
 /* ---- Legal / prose pages ---- */
-.prose { padding: 48px 0 32px; }
+.prose { padding-block: 48px 32px; }
 .prose h1 { font-size: 1.9rem; margin: 0 0 6px; letter-spacing: -0.02em; }
 .prose .meta { color: var(--ink-soft); font-size: 0.92rem; margin: 0 0 28px; }
 .prose h2 { font-size: 1.25rem; margin: 32px 0 10px; }
