@@ -13,7 +13,8 @@
 └── apps/
     ├── mikiboard/
     │   ├── index.html      # 소개
-    │   └── privacy.html    # 개인정보처리방침
+    │   ├── privacy.html    # 개인정보처리방침
+    │   └── support.html    # Mikiboard 지원·문의
     ├── misoviewer/
     │   ├── index.html
     │   └── privacy.html
@@ -26,11 +27,11 @@
 
 ## App Store Connect 입력용 URL
 
-> 아래 `<BASE>`는 실제 배포 주소(`https://dotorim.uk` 또는 `https://<user>.github.io/dotorimuk`)로 바꿔 입력하세요.
+> Mikiboard 행은 App Store Connect에 입력할 최종 프로덕션 URL입니다. 다른 앱의 `<BASE>`는 실제 배포 주소(`https://dotorim.uk` 또는 `https://<user>.github.io/dotorimuk`)로 바꿔 입력하세요.
 
 | 앱 | Support URL | Privacy Policy URL | Marketing URL |
 |----|-------------|--------------------|---------------|
-| Mikiboard | `<BASE>/support.html` | `<BASE>/apps/mikiboard/privacy.html` | `<BASE>/apps/mikiboard/` |
+| Mikiboard | `https://dotorim.uk/apps/mikiboard/support.html` | `https://dotorim.uk/apps/mikiboard/privacy.html` | `https://dotorim.uk/apps/mikiboard/` |
 | 미소뷰어 | `<BASE>/support.html` | `<BASE>/apps/misoviewer/privacy.html` | `<BASE>/apps/misoviewer/` |
 | 꼬마통장 | `<BASE>/support.html` | `<BASE>/apps/kkomaledger/privacy.html` | `<BASE>/apps/kkomaledger/` |
 
@@ -57,5 +58,5 @@ python3 -m http.server 8000
 
 ## 수정 시 확인할 점
 
-- 지원 이메일은 `dotorim.uk@icloud.com` 로 작성되어 있습니다. 실제 수신 가능한 주소로 맞춰 주세요. (`support.html`, 각 `privacy.html`)
+- 지원 이메일은 `dotorim.uk@icloud.com` 로 작성되어 있습니다. 실제 수신 가능한 주소로 맞춰 주세요. (`support.html`, `apps/mikiboard/support.html`, 각 `privacy.html`)
 - 개인정보처리방침 본문은 현재 앱 동작(외부 전송 없음, 꼬마통장는 iCloud 사용)을 기준으로 작성했습니다. 앱에 분석·광고·서버 통신을 추가하면 방침도 함께 갱신해야 합니다.
